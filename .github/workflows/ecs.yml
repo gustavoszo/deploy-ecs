@@ -50,7 +50,7 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v2
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: ms-java-1-service-ckn7eplw
+        service: ms-java-1-service-1
         cluster: ec2
         wait-for-service-stability: true
         
