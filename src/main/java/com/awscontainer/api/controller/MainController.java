@@ -10,7 +10,7 @@ public class MainController {
 
     @GetMapping
     public String hello() {
-        return "hello, this is ms-1 deployed by GitHub Actions";
+        return "hello, this is ms-1 testing the deployment with ECS";
     }
 
 }
